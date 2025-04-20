@@ -36,11 +36,11 @@ python sort_files.py
 
 ## 💡 Standardverzeichnisse (anpassbar im Code)
 ```
-"images":    C:\Users\nicop\Pictures
-"documents": C:\Users\nicop\Documents
-"videos":    C:\Users\nicop\Videos
-"music":     C:\Users\nicop\Music
-"others":    C:\Users\nicop\Documents\Others
+"images":    C:\Users\{user}\Pictures
+"documents": C:\Users\{user}\Documents
+"videos":    C:\Users\{user}\Videos
+"music":     C:\Users\{user}\Music
+"others":    C:\Users\{user}\Documents\Others
 ```
 
 ## 🔐 Hinweis
