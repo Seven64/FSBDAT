@@ -19,13 +19,13 @@ def get_destination_folder(file_extension):
             return category
     return "others"
 
-def sort_files(base_folder):
+def sort_files(base_folder):  # {user} muss auf den momentanen User angepasst werden.
     destination_folders = {
-        "images": r"C:\\Users\\nicop\\Pictures",
-        "documents": r"C:\\Users\\nicop\\Documents",
-        "videos": r"C:\\Users\\nicop\\Videos",
-        "music": r"C:\\Users\\nicop\\Music",
-        "others": r"C:\\Users\\nicop\\Documents\\Others"
+        "images": r"C:\\Users\\{user}\\Pictures",
+        "documents": r"C:\\Users\\{user}\\Documents",
+        "videos": r"C:\\Users\\{user}\\Videos",
+        "music": r"C:\\Users\\{user}\\Music",
+        "others": r"C:\\Users\\{user}\\Documents\\Others"
     }
     
     files_by_date_and_type = defaultdict(list)
